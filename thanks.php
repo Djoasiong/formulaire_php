@@ -10,9 +10,9 @@
 
 <p id='Message'>
 
-Merci <?php echo $_POST['user_firstname']; ?> <?php  echo $_POST ['user_lastname']; ?> de nous avoir contacté à propos de "<?php echo $_POST["subject"]; ?>" <br>
+Merci <?php echo $_POST['userFirstName']; ?> <?php  echo $_POST ['userLastName']; ?> de nous avoir contacté à propos de "<?php echo $_POST["subject"]; ?>" <br>
 
-Un de nos conseiller vous contactera soit à l’adresse <?php echo $_POST['user_email']; ?> ou par téléphone au <?php echo $_POST['user_phoneNumber']; ?> dans les plus brefs délais pour traiter votre demande : <br>
+Un de nos conseiller vous contactera soit à l’adresse <?php echo $_POST['userEmail']; ?> ou par téléphone au <?php echo $_POST['userPhoneNumber']; ?> dans les plus brefs délais pour traiter votre demande : <br>
 <?php echo $_POST['message']; ?>
 
 </p>
